@@ -7,4 +7,5 @@ export class Product {
     price: number;
 
     description: string;
+
 }
