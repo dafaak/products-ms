@@ -17,4 +17,6 @@ model Product {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
+  @@index([available])
 }
